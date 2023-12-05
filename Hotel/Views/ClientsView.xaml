@@ -1,0 +1,27 @@
+﻿<Window x:Class="Multi_Login.Views.ClientsView"
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" Height="800" Width="1000" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Grid>
+        <Label Content="Clienti" HorizontalAlignment="Left" Margin="484,30,0,0" VerticalAlignment="Top" Width="188" FontSize="30" FontFamily="Century Gothic" Foreground="Black" FontWeight="Bold" Height="41"/>
+        <DataGrid Margin="0,103,0,10" Name="grid" ItemsSource="{Binding Clienti}" SelectedItem="{Binding CurrentClient}"  AutoGenerateColumns="False" IsReadOnly="True" BorderBrush="White">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="300" Header="Nume           " Binding="{Binding Name}" />
+                <DataGridTextColumn Width="300" Header="Email    " Binding="{Binding Email}" />
+                <DataGridTemplateColumn Header="Stergere">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Command="{Binding RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}, Path=DataContext.StergereClientCommand}">
+                                <Image Source="/Images/trash.png"></Image>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+
+</Window>

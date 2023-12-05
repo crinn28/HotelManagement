@@ -1,0 +1,35 @@
+﻿<Window x:Class="Multi_Login.Views.RoomView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Multi_Login.Views"
+        mc:Ignorable="d"
+        Title="RoomView" Height="450" Width="800">
+    <Grid>
+        <Button HorizontalAlignment="Right" VerticalAlignment="Bottom" Content="➤" FontFamily="MV Boli" Margin="0,0,310.6,90" Command="{Binding NextCommand}" RenderTransformOrigin="-2.556,-2.691"/>
+
+        <Button Content="➤" HorizontalAlignment="Right" VerticalAlignment="Bottom" VerticalContentAlignment="Top" FontFamily="MV Boli" Margin="0,0,448.6,91" RenderTransformOrigin="0.5,0.5" Command="{Binding PrevCommand}">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Image Source="{Binding ImageSource}" HorizontalAlignment="Left" Height="222" VerticalAlignment="Top" Width="479" Margin="241,28,0,0" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.359"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+    
+        <TextBlock x:Name="txtPret" HorizontalAlignment="Left" Margin="585,298,0,0" TextWrapping="Wrap" FontSize="20" FontFamily="Harrington" VerticalAlignment="Top" Height="112" Width="199" Text="{Binding Dotari}"/>
+       </Grid>
+</Window>

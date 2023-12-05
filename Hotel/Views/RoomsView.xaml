@@ -1,0 +1,57 @@
+﻿<Window x:Class="Multi_Login.Views.RoomsView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Multi_Login.Views"
+        xmlns:ctx="clr-namespace:Multi_Login.ViewModels"
+        mc:Ignorable="d"
+        Title="OferteView" Height="800" Width="1000" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
+
+    <Grid>
+        <Label Content="Camere" HorizontalAlignment="Left" Margin="484,30,0,0" VerticalAlignment="Top" Width="188" FontSize="30" FontFamily="Century Gothic" Foreground="Black" FontWeight="Bold" Height="41"/>
+        <DataGrid Margin="0,103,0,172" Name="grid" ItemsSource="{Binding Camere}" SelectedItem="{Binding CurrentCamera}"  AutoGenerateColumns="False" IsReadOnly="True" BorderBrush="White">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Tip Camera                   " Binding="{Binding Tipul}" />
+                <DataGridTextColumn Header="TV" Binding="{Binding TV}" />
+                <DataGridTextColumn Header="Balcon" Binding="{Binding Balcon}" />
+                <DataGridTextColumn Header="Mini Bar" Binding="{Binding MiniBar}" />
+                <DataGridTextColumn Header="Aer Conditionat" Binding="{Binding AerConditionat}" />
+                <DataGridTextColumn Header="Pret de pornire" Binding="{Binding PretID}" />
+                <DataGridTemplateColumn Header="Afisare">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Command="{Binding RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}, Path=DataContext.CameraCommand}">
+                                <Image Source="/Images/surprise.png"></Image>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Stergere">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Command="{Binding RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}, Path=DataContext.StergereCameraCommand}">
+                                <Image Source="/Images/trash.png"></Image>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <TextBox x:Name="numeClient_Copy1" HorizontalAlignment="Left" Margin="27,694,0,0" VerticalAlignment="Top" Width="137" Height="25" Text="{Binding CurrentCamera.Tipul}"/>
+        <Label Content="Tip camera:" HorizontalAlignment="Left" Margin="27,661,0,0" VerticalAlignment="Top" Width="137" FontSize="20" FontFamily="Century Gothic" Foreground="Black" FontWeight="Bold" RenderTransformOrigin="1.495,3.87" Height="28"/>
+        <TextBlock HorizontalAlignment="Left" Margin="27,740,0,0" TextWrapping="Wrap" Text="TV" VerticalAlignment="Top" Height="20" Width="29"/>
+        <CheckBox HorizontalAlignment="Left" Margin="87,742,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.744,1.409" IsChecked="{Binding Path= CurrentCamera.TV}"/>
+        <TextBlock HorizontalAlignment="Left" Margin="185,740,0,0" TextWrapping="Wrap" Text="Balcon" VerticalAlignment="Top" Height="19" Width="43" RenderTransformOrigin="0.395,0.374"/>
+        <CheckBox HorizontalAlignment="Left" Margin="281,742,0,0" VerticalAlignment="Top" Height="19" Width="20" RenderTransformOrigin="0.355,2.8" IsChecked="{Binding Path=CurrentCamera.Balcon}"/>
+        <TextBlock HorizontalAlignment="Left" Margin="352,740,0,0" TextWrapping="Wrap" Text="MiniBar" VerticalAlignment="Top" Width="59" RenderTransformOrigin="0.471,2.331" Height="19"/>
+        <CheckBox HorizontalAlignment="Left" Margin="416,740,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.54,3.341" IsChecked="{Binding Path= CurrentCamera.MiniBar}"/>
+        <Button Content="Adauga" HorizontalAlignment="Left" Margin="859,764,0,0" VerticalAlignment="Top" Width="82" Height="26" Command="{Binding AddCommand}" />
+        <Button Content="Editeaza" HorizontalAlignment="Left" Margin="724,764,0,0" VerticalAlignment="Top" Width="92" Height="26" Command="{Binding EditareOferaCommand}" />
+        <Label Content="Cale folder poze:" HorizontalAlignment="Left" Margin="281,661,0,0" VerticalAlignment="Top" Width="195" FontSize="20" FontFamily="Century Gothic" Foreground="Black" FontWeight="Bold" RenderTransformOrigin="1.495,3.87" Height="28"/>
+        <TextBox x:Name="numeClient_Copy" HorizontalAlignment="Left" Margin="281,689,0,0" VerticalAlignment="Top" Width="280" Height="25" Text="{Binding CurrentCamera.ImagesPath}"/>
+        <Label Content="Pret de pornire:" HorizontalAlignment="Left" Margin="621,661,0,0" VerticalAlignment="Top" Width="195" FontSize="20" FontFamily="Century Gothic" Foreground="Black" FontWeight="Bold" RenderTransformOrigin="1.495,3.87" Height="28"/>
+        <TextBox x:Name="numeClient_Copy2" HorizontalAlignment="Left" Margin="621,689,0,0" VerticalAlignment="Top" Width="280" Height="25" Text="{Binding CurrentCamera.PretID}"/>
+    </Grid>
+</Window>

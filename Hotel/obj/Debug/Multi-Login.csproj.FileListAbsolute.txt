@@ -1,0 +1,108 @@
+C:\Users\jan11\source\repos\Multi-Login\bin\Debug\Multi-Login.exe.config
+C:\Users\jan11\source\repos\Multi-Login\bin\Debug\Multi-Login.exe
+C:\Users\jan11\source\repos\Multi-Login\bin\Debug\Multi-Login.pdb
+C:\Users\jan11\source\repos\Multi-Login\bin\Debug\MaterialDesignColors.dll
+C:\Users\jan11\source\repos\Multi-Login\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\jan11\source\repos\Multi-Login\bin\Debug\MaterialDesignColors.pdb
+C:\Users\jan11\source\repos\Multi-Login\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\jan11\source\repos\Multi-Login\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\jan11\source\repos\Multi-Login\obj\Debug\Multi-Login.csprojAssemblyReference.cache
+C:\Users\jan11\source\repos\Multi-Login\obj\Debug\MainWindow.g.cs
+C:\Users\jan11\source\repos\Multi-Login\obj\Debug\App.g.cs
+C:\Users\jan11\source\repos\Multi-Login\obj\Debug\Multi-Login_MarkupCompile.cache
+C:\Users\jan11\source\repos\Multi-Login\obj\Debug\Multi-Login_MarkupCompile.lref
+C:\Users\jan11\source\repos\Multi-Login\obj\Debug\App.baml
+C:\Users\jan11\source\repos\Multi-Login\obj\Debug\MainWindow.baml
+C:\Users\jan11\source\repos\Multi-Login\obj\Debug\Multi-Login.g.resources
+C:\Users\jan11\source\repos\Multi-Login\obj\Debug\Multi_Login.Properties.Resources.resources
+C:\Users\jan11\source\repos\Multi-Login\obj\Debug\Multi-Login.csproj.GenerateResource.cache
+C:\Users\jan11\source\repos\Multi-Login\obj\Debug\Multi-Login.csproj.CoreCompileInputs.cache
+C:\Users\jan11\source\repos\Multi-Login\obj\Debug\Multi-Login.csproj.CopyComplete
+C:\Users\jan11\source\repos\Multi-Login\obj\Debug\Multi-Login.exe
+C:\Users\jan11\source\repos\Multi-Login\obj\Debug\Multi-Login.pdb
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\bin\Debug\Multi-Login.exe.config
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\bin\Debug\Multi-Login.exe
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\bin\Debug\Multi-Login.pdb
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\bin\Debug\EntityFramework.dll
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\bin\Debug\EntityFramework.SqlServer.dll
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\bin\Debug\MaterialDesignColors.dll
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\bin\Debug\EntityFramework.xml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\bin\Debug\EntityFramework.SqlServer.xml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\bin\Debug\MaterialDesignColors.pdb
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\Views\RezervationViewModel.baml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\Views\ClientsView.baml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\Views\RezervationView.baml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\MainWindow.g.cs
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\Views\RezervationViewModel.g.cs
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\Views\ClientsView.g.cs
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\Views\MenuWindow.g.cs
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\Views\RezervationView.g.cs
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\Views\RoomsView.g.cs
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\Views\SignInWindow.g.cs
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\Views\SignUpWindow.g.cs
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\App.g.cs
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\Multi-Login_MarkupCompile.cache
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\Multi-Login_MarkupCompile.lref
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\App.baml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\MainWindow.baml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\Views\MenuWindow.baml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\Views\RoomsView.baml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\Views\SignInWindow.baml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\Views\SignUpWindow.baml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\Multi-Login.g.resources
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\Multi_Login.Properties.Resources.resources
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\Multi-Login.csproj.GenerateResource.cache
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\Multi-Login.csproj.CoreCompileInputs.cache
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\Multi-Login.exe
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\Multi-Login.pdb
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\xAjutator\Multi-login-CSharp-WPF\obj\Debug\Multi-Login.csproj.AssemblyReference.cache
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Views\ClientsView.baml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Views\RezervationView.baml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\MainWindow.g.cs
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Views\OferteView.g.cs
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Views\ClientsView.g.cs
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Views\MenuWindow.g.cs
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Views\PreturiView.g.cs
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Views\RezervareOferta.g.cs
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Views\RezervationView.g.cs
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Views\RoomsView.g.cs
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Views\RoomView.g.cs
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Views\SignInWindow.g.cs
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Views\SignUpWindow.g.cs
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\App.g.cs
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Multi-Login_MarkupCompile.cache
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Multi-Login_MarkupCompile.lref
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\bin\Debug\Multi-Login.exe.config
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\bin\Debug\Multi-Login.exe
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\bin\Debug\Multi-Login.pdb
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\bin\Debug\EntityFramework.dll
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\bin\Debug\EntityFramework.SqlServer.dll
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\bin\Debug\MaterialDesignColors.dll
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\bin\Debug\EntityFramework.xml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\bin\Debug\EntityFramework.SqlServer.xml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\bin\Debug\MaterialDesignColors.pdb
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Multi-Login.csproj.AssemblyReference.cache
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\App.baml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\MainWindow.baml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Views\OferteView.baml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Views\MenuWindow.baml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Views\PreturiView.baml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Views\RezervareOferta.baml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Views\RoomsView.baml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Views\RoomView.baml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Views\SignInWindow.baml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Views\SignUpWindow.baml
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Multi-Login.g.resources
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Multi_Login.Properties.Resources.resources
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Multi-Login.csproj.GenerateResource.cache
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Multi-Login.csproj.CoreCompileInputs.cache
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Multi-Login.exe
+D:\IAUnitBv\ANUL 2\SEMESTRUL 2\Medii vizuale de programare\Laborator\Teme\Tema3\Multi-login-CSharp-WPF\obj\Debug\Multi-Login.pdb

@@ -1,0 +1,18 @@
+﻿<Window x:Class="Multi_Login.Views.RezervareOferta"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Multi_Login.Views"
+        xmlns:ctx="clr-namespace:Multi_Login.ViewModels"
+        mc:Ignorable="d"
+        Title="RezervareOferta" Height="450" Width="800">
+    <Grid>
+        <Label Content="Nume:" HorizontalAlignment="Left" Margin="229,102,0,0" VerticalAlignment="Top" Width="108" FontSize="20" FontFamily="Century Gothic" Foreground="Black" FontWeight="Bold" RenderTransformOrigin="1.495,3.87" Height="27"/>
+        <TextBox x:Name="numeClient" HorizontalAlignment="Left" Margin="229,134,0,0" VerticalAlignment="Top" Width="352" Height="42" Text="{Binding NameTextBox, UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBox x:Name="numeClient_Copy" HorizontalAlignment="Left" Margin="229,284,0,0" VerticalAlignment="Top" Width="352" Height="42" Text="{Binding EmailTextBox, UpdateSourceTrigger=PropertyChanged}"/>
+        <Label Content="Adresa de mail:" HorizontalAlignment="Left" Margin="229,241,0,0" VerticalAlignment="Top" Width="207" FontSize="20" FontFamily="Century Gothic" Foreground="Black" FontWeight="Bold" RenderTransformOrigin="1.495,3.87" Height="38"/>
+        <Button Content="Rezerva" HorizontalAlignment="Left" Margin="354,384,0,0" VerticalAlignment="Top" Width="82" Height="26" Command="{Binding RezervaCommand}" />
+
+    </Grid>
+</Window>

@@ -1,0 +1,70 @@
+﻿<Window x:Class="Multi_Login.Views.OferteView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Multi_Login.Views"
+        xmlns:ctx="clr-namespace:Multi_Login.ViewModels"
+        mc:Ignorable="d"
+        Title="OferteView" Height="800" Width="1000" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
+
+    <Grid>
+        <Label Content="Oferte" HorizontalAlignment="Left" Margin="484,30,0,0" VerticalAlignment="Top" Width="188" FontSize="30" FontFamily="Century Gothic" Foreground="Black" FontWeight="Bold" Height="41"/>
+        <DataGrid Margin="0,103,0,172" Name="grid" ItemsSource="{Binding Oferte}" SelectedItem="{Binding CurrentOferta}"  AutoGenerateColumns="False" IsReadOnly="True" BorderBrush="White">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Denumire Oferta" Binding="{Binding Nume}" />
+                <DataGridTextColumn Header="Data Inceput" Binding="{Binding DataInceput}" />
+                <DataGridTextColumn Header="Data Final" Binding="{Binding DataFinal}" />
+                <DataGridTextColumn Header="Spa" Binding="{Binding Spa}" />
+                <DataGridTextColumn Header="Aqua Park" Binding="{Binding AccesAqua}" />
+                <DataGridTextColumn Header="Mic Dejun" Binding="{Binding MicDejun}" />
+                <DataGridTextColumn Header="Pret" Binding="{Binding Pret}" />
+                <DataGridTemplateColumn Header="Rezervare">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Command="{Binding RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}, Path=DataContext.RezervaOferaCommand}">Rezerva</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Editare">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button >
+                                <Image Source="/Images/edit.png"></Image>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Stergere">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Command="{Binding RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}, Path=DataContext.StergereOferaCommand}">
+                                <Image Source="/Images/trash.png"></Image>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Label Content="Nume:" HorizontalAlignment="Left" Margin="10,661,0,0" VerticalAlignment="Top" Width="108" FontSize="20" FontFamily="Century Gothic" Foreground="Black" FontWeight="Bold" RenderTransformOrigin="1.495,3.87" Height="28"/>
+        <TextBox x:Name="numeClient" HorizontalAlignment="Left" Margin="10,685,0,0" VerticalAlignment="Top" Width="233" Height="25" Text="{Binding CurrentOferta.Nume}"/>
+        <Label Content="Data de inceput" HorizontalAlignment="Left" Margin="643,655,0,0" VerticalAlignment="Top" Width="146" FontSize="14" FontFamily="Century Gothic" Foreground="Black" FontWeight="Bold" RenderTransformOrigin="0.886,4.354"/>
+        <DatePicker x:Name="dataInicio" HorizontalAlignment="Left" Margin="643,685,0,0" VerticalAlignment="Top" Width="146" 
+                    SelectedDate="{Binding Path=CurrentOferta.DataInceput}"/>
+        <Label Content="Data de final" HorizontalAlignment="Left" Margin="832,655,0,0" VerticalAlignment="Top" Width="130" FontSize="14" FontFamily="Century Gothic" Foreground="Black" FontWeight="Bold" RenderTransformOrigin="1.998,2.337" Height="25"/>
+        <DatePicker x:Name="dataFim" HorizontalAlignment="Left" Margin="832,685,0,0" VerticalAlignment="Top" Width="130" SelectedDate="{Binding Path=CurrentOferta.DataFinal}"/>
+        <TextBox x:Name="numeClient_Copy" HorizontalAlignment="Left" Margin="269,685,0,0" VerticalAlignment="Top" Width="93" Height="25" Text="{Binding CurrentOferta.Pret}"/>
+        <Label Content="Pret:" HorizontalAlignment="Left" Margin="269,661,0,0" VerticalAlignment="Top" Width="108" FontSize="20" FontFamily="Century Gothic" Foreground="Black" FontWeight="Bold" RenderTransformOrigin="1.495,3.87" Height="28"/>
+        <TextBox x:Name="numeClient_Copy1" HorizontalAlignment="Left" Margin="406,685,0,0" VerticalAlignment="Top" Width="137" Height="25" Text="{Binding CurrentOferta.TipCamera}"/>
+        <Label Content="Tip camera:" HorizontalAlignment="Left" Margin="406,656,0,0" VerticalAlignment="Top" Width="137" FontSize="20" FontFamily="Century Gothic" Foreground="Black" FontWeight="Bold" RenderTransformOrigin="1.495,3.87" Height="28"/>
+        <TextBlock HorizontalAlignment="Left" Margin="27,740,0,0" TextWrapping="Wrap" Text="Spa" VerticalAlignment="Top" Height="20" Width="91"/>
+        <CheckBox HorizontalAlignment="Left" Margin="123,742,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.744,1.409" IsChecked="{Binding Path= CurrentOferta.Spa}"/>
+        <TextBlock HorizontalAlignment="Left" Margin="233,740,0,0" TextWrapping="Wrap" Text="Acces Aqua Park" VerticalAlignment="Top" Height="19" Width="91" RenderTransformOrigin="0.395,0.374"/>
+        <CheckBox HorizontalAlignment="Left" Margin="357,740,0,0" VerticalAlignment="Top" Height="19" Width="20" RenderTransformOrigin="0.355,2.8" IsChecked="{Binding Path=CurrentOferta.AccesAqua}"/>
+        <TextBlock HorizontalAlignment="Left" Margin="443,740,0,0" TextWrapping="Wrap" Text="Mic Dejun" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.471,2.331"/>
+        <CheckBox HorizontalAlignment="Left" Margin="543,742,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.54,3.341" IsChecked="{Binding Path= CurrentOferta.MicDejun}"/>
+        <Button Content="Adauga" HorizontalAlignment="Left" Margin="859,764,0,0" VerticalAlignment="Top" Width="82" Height="26" Command="{Binding AddCommand}" />
+        <Button Content="Editeaza" HorizontalAlignment="Left" Margin="724,764,0,0" VerticalAlignment="Top" Width="92" Height="26" Command="{Binding EditareOferaCommand}" />
+    </Grid>
+</Window>
